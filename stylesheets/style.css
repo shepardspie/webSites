@@ -39,13 +39,13 @@ h2#product {
     float: right;
     clear:both;
     margin: 0px;
-    border-color: grey;
-    border-width: 0px 0px 2px 2px;
+    border-color: black;
+    border-width: 0px 0px 1px 1px;
     border-style: solid;
 }
 
 section > div {
-    border : 3px solid grey;
+    border : 1px solid black;
     margin: 10px 8px 10px 8px;
     background-color: antiquewhite;
 
