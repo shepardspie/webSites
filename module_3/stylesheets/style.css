@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;    
+}
+
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+body > section {
+    float:left;
+}
+
+div {
+    display: inline-block;
+}
+
+p { 
+    margin: 10px 8px 10px 8px;
+    float:left;
+}
+
+h2#info {
+
+    background-color: greenyellow;
+
+}
+
+h2#story {
+
+    background-color: orangered;
+
+}
+
+h2#product {
+    background-color: deepskyblue;
+}
+
+.sectionTitle {
+    float: right;
+    clear:both;
+    margin: 0px;
+    border-color: black;
+    border-width: 0px 0px 1px 1px;
+    border-style: solid;
+}
+
+section > div {
+    border : 1px solid black;
+    margin: 10px 8px 10px 8px;
+    background-color: antiquewhite;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    .section-lg-3 {
+        width:33%;
+
+    }
+}
+
+
+@media screen and (min-width: 768px) AND (max-width: 991px) {
+    .section-md-6 {
+        width:50%;
+
+
+    }
+    .section-md-12 {
+        width: 100%;
+
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .section-sm-12 {
+        width: 100%;
+
+
+    }
+
+}
