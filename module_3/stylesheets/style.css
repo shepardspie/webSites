@@ -31,11 +31,6 @@
     margin-top: 10px;
 }
 
-#nav-list a {
-   
-    text-align: center;
-}
-
 #nav-list a:hover {
     background: #E7E7E7;
 }
