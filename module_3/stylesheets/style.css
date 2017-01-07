@@ -1,7 +1,52 @@
 * {
     box-sizing: border-box;    
 }
+/* NAVBAR */
 
+.navbar-header {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+
+    font-size:1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+} 
+
+#nav-container, #menu-content, .navbar-header {
+    display: block;
+    
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+   
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#nav-list a span {
+
+    font-size: 1.8em;
+
+}
+
+/* NAVBAR END */
 body {
     font-family: "Times New Roman", Georgia, Serif;
 }
@@ -17,71 +62,17 @@ div {
 p { 
     margin: 10px 8px 10px 8px;
     float:left;
-}
-
-h2#info {
-
-    background-color: greenyellow;
-
-}
-
-h2#story {
-
-    background-color: orangered;
-
-}
-
-h2#product {
-    background-color: deepskyblue;
-}
-
-.sectionTitle {
-    float: right;
-    clear:both;
-    margin: 0px;
-    border-color: black;
-    border-width: 0px 0px 1px 1px;
-    border-style: solid;
+    height: 1000px;
 }
 
 section > div {
     border : 1px solid black;
-    margin: 10px 8px 10px 8px;
+    margin : 10px auto 10px auto;
     background-color: antiquewhite;
+    
 
 }
 
-h1 {
-    text-align: center;
-}
-
-@media screen and (min-width: 992px) {
-    .section-lg-3 {
-        width:33%;
-
-    }
-}
 
 
-@media screen and (min-width: 768px) AND (max-width: 991px) {
-    .section-md-6 {
-        width:50%;
 
-
-    }
-    .section-md-12 {
-        width: 100%;
-
-
-    }
-}
-
-@media screen and (max-width: 767px) {
-
-    .section-sm-12 {
-        width: 100%;
-
-
-    }
-
-}
