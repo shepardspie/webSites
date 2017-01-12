@@ -1,0 +1,26 @@
+body {
+    font-family: serif;
+    color: black;
+}
+
+/**NAVBAR**/
+
+.navbar-brand a:hover{
+    text-decoration: none;
+
+}
+
+
+
+/**NAVBAR END**/
+/**Quick Contact Information**/
+#quick-contact {
+    position: absolute;
+}
+
+
+#quick-contact ul li {
+    list-style: none;
+}
+
+/**Quick Contact Information END**/
