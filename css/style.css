@@ -1,0 +1,62 @@
+body {
+    font-family: serif;
+    color: black;
+}
+
+/**NAVBAR**/
+.navbar-brand h1 {
+    font-size:1.5em;
+}
+
+.navbar-brand a:hover{
+    text-decoration: none;
+
+}
+
+
+
+/**NAVBAR END**/
+/**Quick Contact Information**/
+#quick-contact {
+    position: absolute;
+}
+
+
+#quick-contact ul li {
+    list-style: none;
+}
+
+/**Quick Contact Information END**/
+
+/**Media Queries**/
+@media (max-width:767px) {
+
+    /* Header */
+
+    .navbar-brand {
+        padding-top: 10px;
+        height:80px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+        padding-top: 10px;
+        font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+
+    #nav-options a { /* Collapsed nav menu text */
+        font-size: 1.2em;
+    }
+    #nav-options a span { /* Collapsed nav menu glyph */
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+}
+
+@media (max-width: 479px) {
+
+    .navbar-brand h1 {
+        padding-top:5px;
+        font-size:6vw;
+    }    
+    
+}
